@@ -1,4 +1,4 @@
-package com.eldermoraes;
+package com.katho;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
