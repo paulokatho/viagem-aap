@@ -1,10 +1,10 @@
 package com.katho.reserva;
 
-
 public class Reserva {
     
     private long id;
     private long idCliente;
+
 
     public Reserva(){
         

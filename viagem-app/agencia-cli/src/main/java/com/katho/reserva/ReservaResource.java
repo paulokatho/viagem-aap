@@ -15,6 +15,7 @@ public class ReservaResource {
     @RestClient
     ReservaService reservaService;
 
+
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("newReserva")
