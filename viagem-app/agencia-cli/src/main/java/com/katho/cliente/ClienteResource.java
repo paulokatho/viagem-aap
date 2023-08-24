@@ -19,7 +19,7 @@ public class ClienteResource {
     @GET
     @Path("findById")
     @Produces(MediaType.APPLICATION_JSON)
-    public Cliente findById(@QueryParam("id") long id){
+    public Cliente findById(@QueryParam("id") long id) {
         return clienteService.findById(id);
     }
 
@@ -29,4 +29,5 @@ public class ClienteResource {
         Cliente cliente = Cliente.of(99, "Remoto");
         return clienteService.newCliente(cliente);
     }
+    
 }
